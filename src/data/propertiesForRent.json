@@ -1,0 +1,272 @@
+[
+  {
+    "id": "rent-1",
+    "title": "221B Baker Street",
+    "address": "New York, NY 10001",
+    "price": 3500,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "levels": 1,
+    "imageUrls": ["/images/property-4.jpg"],
+    "forSale": false,
+    "description": {
+      "en": "Stylish apartment in the heart of Manhattan. Features an open concept living area, modern kitchen with stainless steel appliances, and a spacious master bedroom with en-suite bathroom. Building amenities include a fitness center and rooftop terrace.",
+      "es": "Elegante apartamento en el corazón de Manhattan. Cuenta con una sala de estar de concepto abierto, cocina moderna con electrodomésticos de acero inoxidable y un espacioso dormitorio principal con baño en suite. Las comodidades del edificio incluyen un gimnasio y una terraza en la azotea.",
+      "uk": "Стильна квартира в центрі Манхеттена. Має вітальню відкритого планування, сучасну кухню з технікою з нержавіючої сталі та простору головну спальню з власною ванною кімнатою. Серед зручностей будинку – фітнес-центр та тераса на даху.",
+      "pl": "Stylowy apartament w sercu Manhattanu. Posiada otwartą przestrzeń dzienną, nowoczesną kuchnię ze sprzętem ze stali nierdzewnej oraz przestronną sypialnię główną z łazienką. Udogodnienia budynku obejmują centrum fitness i taras na dachu."
+    },
+    "features": {
+      "en": [
+        "Stainless steel appliances",
+        "Hardwood floors",
+        "In-unit laundry",
+        "Fitness center",
+        "Rooftop terrace"
+      ],
+      "es": [
+        "Electrodomésticos de acero inoxidable",
+        "Pisos de madera",
+        "Lavandería en la unidad",
+        "Gimnasio",
+        "Terraza en la azotea"
+      ],
+      "uk": [
+        "Техніка з нержавіючої сталі",
+        "Паркетна підлога",
+        "Пральна машина в квартирі",
+        "Фітнес-центр",
+        "Тераса на даху"
+      ],
+      "pl": [
+        "Sprzęt ze stali nierdzewnej",
+        "Drewniane podłogi",
+        "Pralnia w mieszkaniu",
+        "Centrum fitness",
+        "Taras na dachu"
+      ]
+    },
+    "yearBuilt": 2012,
+    "parkingSpaces": 1,
+    "petFriendly": true,
+    "availableFrom": "2025-05-01",
+    "latitude": 40.7128,
+    "longitude": -74.0060
+  },
+  {
+    "id": "rent-2",
+    "title": "1234 Main Street",
+    "address": "Chicago, IL 60601",
+    "price": 2200,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "sqft": 850,
+    "levels": 1,
+    "imageUrls": ["/images/property-5.jpg"],
+    "forSale": false,
+    "description": {
+      "en": "Cozy one-bedroom apartment in downtown Chicago. Recently renovated with modern finishes, including granite countertops and stainless steel appliances. Large windows provide plenty of natural light and stunning city views.",
+      "es": "Acogedor apartamento de un dormitorio en el centro de Chicago. Recientemente renovado con acabados modernos, que incluyen encimeras de granito y electrodomésticos de acero inoxidable. Grandes ventanales brindan abundante luz natural e impresionantes vistas de la ciudad.",
+      "uk": "Затишна однокімнатна квартира в центрі Чикаго. Нещодавно відремонтована з сучасним оздобленням, включаючи гранітні стільниці та техніку з нержавіючої сталі. Великі вікна забезпечують багато природного світла та приголомшливий вид на місто.",
+      "pl": "Przytulny apartament z jedną sypialnią w centrum Chicago. Niedawno odnowiony z nowoczesnymi wykończeniami, w tym granitowymi blatami i sprzętem ze stali nierdzewnej. Duże okna zapewniają mnóstwo naturalnego światła i wspaniałe widoki na miasto."
+    },
+    "features": {
+      "en": [
+        "City views",
+        "Granite countertops",
+        "Stainless steel appliances",
+        "Walk-in closet",
+        "24-hour doorman"
+      ],
+      "es": [
+        "Vistas a la ciudad",
+        "Encimeras de granito",
+        "Electrodomésticos de acero inoxidable",
+        "Vestidor",
+        "Portero 24 horas"
+      ],
+      "uk": [
+        "Вид на місто",
+        "Гранітні стільниці",
+        "Техніка з нержавіючої сталі",
+        "Гардеробна кімната",
+        "Цілодобовий консьєрж"
+      ],
+      "pl": [
+        "Widok na miasto",
+        "Granitowe blaty",
+        "Sprzęt ze stali nierdzewnej",
+        "Garderoba",
+        "Całodobowy portier"
+      ]
+    },
+    "yearBuilt": 2008,
+    "parkingSpaces": 1,
+    "petFriendly": false,
+    "availableFrom": "2025-06-15",
+    "latitude": 41.8781,
+    "longitude": -87.6298
+  },
+  {
+    "id": "rent-3",
+    "title": "555 Park Avenue",
+    "address": "Miami, FL 33101",
+    "price": 4800,
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "sqft": 1800,
+    "levels": 2,
+    "imageUrls": ["/images/property-6.jpg"],
+    "forSale": false,
+    "description": {
+      "en": "Luxurious townhouse in a gated community with resort-style amenities. Features an open floor plan, gourmet kitchen, and a private balcony with water views. Community amenities include a swimming pool, tennis courts, and a clubhouse.",
+      "es": "Lujosa casa adosada en una comunidad cerrada con comodidades estilo centro turístico. Cuenta con un plano de planta abierto, cocina gourmet y un balcón privado con vistas al agua. Las comodidades comunitarias incluyen piscina, canchas de tenis y casa club.",
+      "uk": "Розкішний таунхаус у закритому комплексі зі зручностями курортного типу. Має відкрите планування, кухню для гурманів та приватний балкон з видом на воду. Зручності комплексу включають басейн, тенісні корти та клубний будинок.",
+      "pl": "Luksusowy townhouse w zamkniętej społeczności z udogodnieniami w stylu kurortu. Posiada otwarty plan, kuchnię dla smakoszy i prywatny balkon z widokiem na wodę. Udogodnienia społeczności obejmują basen, korty tenisowe i klub."
+    },
+    "features": {
+      "en": [
+        "Water views",
+        "Gourmet kitchen",
+        "Private balcony",
+        "Swimming pool",
+        "Tennis courts"
+      ],
+      "es": [
+        "Vistas al agua",
+        "Cocina gourmet",
+        "Balcón privado",
+        "Piscina",
+        "Canchas de tenis"
+      ],
+      "uk": [
+        "Вид на воду",
+        "Кухня для гурманів",
+        "Приватний балкон",
+        "Басейн",
+        "Тенісні корти"
+      ],
+      "pl": [
+        "Widok na wodę",
+        "Kuchnia dla smakoszy",
+        "Prywatny balkon",
+        "Basen",
+        "Korty tenisowe"
+      ]
+    },
+    "yearBuilt": 2016,
+    "parkingSpaces": 2,
+    "petFriendly": true,
+    "availableFrom": "2025-05-15",
+    "latitude": 25.7617,
+    "longitude": -80.1918
+  },
+  {
+    "id": "rent-4",
+    "title": "42 Skyline Tower",
+    "address": "Seattle, WA 98101",
+    "price": 3200,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "sqft": 1100,
+    "levels": 1,
+    "imageUrls": ["/images/property-9.jpg"],
+    "forSale": false,
+    "description": {
+      "en": "Modern high-rise apartment with breathtaking views of the Seattle skyline and Puget Sound. Features floor-to-ceiling windows, an open concept living area, and a sleek kitchen with quartz countertops. Building amenities include a fitness center, rooftop lounge, and 24-hour concierge.",
+      "es": "Moderno apartamento en un edificio alto con impresionantes vistas del horizonte de Seattle y Puget Sound. Cuenta con ventanales de piso a techo, una sala de estar de concepto abierto y una elegante cocina con encimeras de cuarzo. Las comodidades del edificio incluyen gimnasio, salón en la azotea y conserje las 24 horas.",
+      "uk": "Сучасна квартира у висотному будинку з захоплюючими видами на панораму Сіетла та Пьюджет-Саунд. Має вікна від підлоги до стелі, вітальню відкритого планування та стильну кухню з кварцовими стільницями. Зручності будинку включають фітнес-центр, лаунж на даху та цілодобового консьєржа.",
+      "pl": "Nowoczesny apartament w wieżowcu z zapierającymi dech w piersiach widokami na panoramę Seattle i Puget Sound. Posiada okna od podłogi do sufitu, otwartą przestrzeń dzienną i elegancką kuchnię z kwarcowymi blatami. Udogodnienia budynku obejmują centrum fitness, salon na dachu i całodobowego konsjerża."
+    },
+    "features": {
+      "en": [
+        "Skyline views",
+        "Floor-to-ceiling windows",
+        "Quartz countertops",
+        "Rooftop lounge",
+        "24-hour concierge"
+      ],
+      "es": [
+        "Vistas del horizonte",
+        "Ventanales de piso a techo",
+        "Encimeras de cuarzo",
+        "Salón en la azotea",
+        "Conserje 24 horas"
+      ],
+      "uk": [
+        "Вид на панораму міста",
+        "Вікна від підлоги до стелі",
+        "Кварцові стільниці",
+        "Лаунж на даху",
+        "Цілодобовий консьєрж"
+      ],
+      "pl": [
+        "Widok na panoramę miasta",
+        "Okna od podłogi do sufitu",
+        "Kwarcowe blaty",
+        "Salon na dachu",
+        "Całodobowy konsjerż"
+      ]
+    },
+    "yearBuilt": 2019,
+    "parkingSpaces": 1,
+    "petFriendly": true,
+    "availableFrom": "2025-07-01",
+    "latitude": 47.6062,
+    "longitude": -122.3321
+  },
+  {
+    "id": "rent-5",
+    "title": "888 Beachfront Ave",
+    "address": "San Diego, CA 92101",
+    "price": 5500,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "sqft": 1950,
+    "levels": 1,
+    "imageUrls": ["/images/property-10.jpg"],
+    "forSale": false,
+    "description": {
+      "en": "Stunning beachfront condo with panoramic ocean views. Features an expansive living area, gourmet kitchen with high-end appliances, and a master suite with a spa-like bathroom. Enjoy the sound of waves from your private balcony.",
+      "es": "Impresionante condominio frente al mar con vistas panorámicas al océano. Cuenta con una amplia sala de estar, cocina gourmet con electrodomésticos de alta gama y una suite principal con baño tipo spa. Disfrute del sonido de las olas desde su balcón privado.",
+      "uk": "Приголомшлива квартира на березі моря з панорамним видом на океан. Має простору вітальню, кухню для гурманів з високоякісною технікою та головну спальню з ванною кімнатою, схожою на спа. Насолоджуйтесь шумом хвиль з власного балкона.",
+      "pl": "Oszałamiający apartamentowiec przy plaży z panoramicznym widokiem na ocean. Posiada przestronną część dzienną, kuchnię dla smakoszy z wysokiej klasy sprzętem oraz główną sypialnię z łazienką przypominającą spa. Ciesz się szumem fal z prywatnego balkonu."
+    },
+    "features": {
+      "en": [
+        "Beachfront location",
+        "Ocean views",
+        "Gourmet kitchen",
+        "Spa-like bathroom",
+        "Private balcony"
+      ],
+      "es": [
+        "Ubicación frente al mar",
+        "Vistas al océano",
+        "Cocina gourmet",
+        "Baño tipo spa",
+        "Balcón privado"
+      ],
+      "uk": [
+        "Розташування на березі моря",
+        "Вид на океан",
+        "Кухня для гурманів",
+        "Ванна кімната, схожа на спа",
+        "Приватний балкон"
+      ],
+      "pl": [
+        "Lokalizacja przy plaży",
+        "Widok na ocean",
+        "Kuchnia dla smakoszy",
+        "Łazienka w stylu spa",
+        "Prywatny balkon"
+      ]
+    },
+    "yearBuilt": 2017,
+    "parkingSpaces": 2,
+    "petFriendly": false,
+    "availableFrom": "2025-06-01",
+    "latitude": 32.7157,
+    "longitude": -117.1611
+  }
+]
