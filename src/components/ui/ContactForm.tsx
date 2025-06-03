@@ -29,7 +29,7 @@ const ContactForm = () => {
     // Simulate form submission with a delay
     setTimeout(() => {
       // Form submission logic would go here
-      console.log('Form submitted:', formData);
+      // console.log('Form submitted', { name, email, message });
       
       // Reset form and show success state
       setIsSubmitting(false);

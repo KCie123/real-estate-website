@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { useTranslation } from 'next-i18next';
 
 type PropertyType = 'buy' | 'rent' | 'all';

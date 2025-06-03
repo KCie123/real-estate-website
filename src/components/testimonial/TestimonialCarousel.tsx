@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { FaQuoteLeft, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { useTranslation } from 'next-i18next';
 
@@ -34,7 +34,7 @@ const TestimonialCarousel = ({ testimonials }: TestimonialCarouselProps) => {
     }, 500);
   };
 
-  const goToNext = () => {
+  const goToNext = useCallback(() => {
     if (isAnimating) return;
     
     setIsAnimating(true);
@@ -45,7 +45,7 @@ const TestimonialCarousel = ({ testimonials }: TestimonialCarouselProps) => {
     setTimeout(() => {
       setIsAnimating(false);
     }, 500);
-  };
+  }, [isAnimating, currentIndex, testimonials.length]);
 
   // Auto-advance slides every 7 seconds
   useEffect(() => {
@@ -56,7 +56,7 @@ const TestimonialCarousel = ({ testimonials }: TestimonialCarouselProps) => {
     }, 7000);
     
     return () => clearInterval(slideInterval);
-  }, [currentIndex, isAnimating]);
+  }, [currentIndex, isAnimating, goToNext]);
 
   if (!testimonials.length) return null;
 
@@ -77,7 +77,7 @@ const TestimonialCarousel = ({ testimonials }: TestimonialCarouselProps) => {
             
             <blockquote className="text-center mb-6">
               <p className="text-lg md:text-xl italic mb-6 leading-relaxed">
-                "{testimonials[currentIndex].quote}"
+                {`"${testimonials[currentIndex].quote}"`}
               </p>
               <footer className="text-gray-600">
                 <cite className="not-italic font-medium text-lg">

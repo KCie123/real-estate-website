@@ -1,12 +1,11 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { FaBars, FaTimes, FaGlobe } from 'react-icons/fa';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 
 const Header = () => {
-  const { t, i18n } = useTranslation('common');
+  const { t } = useTranslation('common');
   const router = useRouter();
   const { pathname, asPath, query } = router;
 

@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { FaBed, FaBath, FaRulerCombined } from 'react-icons/fa';
 import { BsBuilding } from 'react-icons/bs';
@@ -14,7 +13,6 @@ export interface PropertyCardProps {
   bathrooms: number;
   sqft: number;
   levels?: number;
-  imageUrl: string;
   imageUrls?: string[];
   forSale: boolean;
   description?: { [key: string]: string };
@@ -25,6 +23,7 @@ export interface PropertyCardProps {
   availableFrom?: string;
   latitude?: number;
   longitude?: number;
+  _imageUrls?: string[];
 }
 
 const PropertyCard = ({
@@ -36,7 +35,7 @@ const PropertyCard = ({
   bathrooms,
   sqft,
   levels = 1,
-  imageUrl,
+  imageUrls,
   forSale
 }: PropertyCardProps) => {
   const { t } = useTranslation('common');

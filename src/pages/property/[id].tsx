@@ -3,12 +3,13 @@ import { useEffect, useState } from 'react';
 import Layout from '@/components/layout/Layout';
 import { getPropertyById } from '@/utils/dataService';
 import { PropertyCardProps } from '@/components/property/PropertyCard';
-import { FaBed, FaBath, FaRulerCombined, FaHome, FaCalendarAlt, FaParking, FaChevronLeft, FaChevronRight, FaCheck } from 'react-icons/fa';
+import { FaBed, FaBath, FaRulerCombined, FaHome, FaCalendarAlt, FaParking, FaCheck } from 'react-icons/fa';
 import Link from 'next/link';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { useTranslation } from 'next-i18next';
 import dynamic from 'next/dynamic';
+import Image from 'next/image';
 
 // Dynamically import the Map component
 const MapDisplay = dynamic(() => import('@/components/map/MapDisplay'), {
@@ -73,10 +74,6 @@ const PropertyDetails = () => {
     );
   }
 
-  // Log property data before returning JSX
-  console.log('Property Data before render:', property);
-  console.log('Coords:', property?.latitude, property?.longitude);
-
   // ------ Define language keys AFTER property is guaranteed to exist ------
   const currentLocale = i18n.language;
   const descriptionLang = property.description?.[currentLocale] ? currentLocale : 'en';
@@ -85,16 +82,7 @@ const PropertyDetails = () => {
   // Image handling remains the same
   const images = property?.imageUrls && property.imageUrls.length > 0 
                  ? property.imageUrls 
-                 : [property?.imageUrl || '/images/property-placeholder.jpg'];
-
-  // Navigation functions remain the same
-  const goToPreviousImage = () => {
-    setCurrentImageIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
-  };
-
-  const goToNextImage = () => {
-    setCurrentImageIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
-  };
+                 : ['/images/property-placeholder.jpg'];
 
   return (
     <Layout>
@@ -199,7 +187,7 @@ const PropertyDetails = () => {
               
               <div className="flex items-center mb-6">
                 <div className="w-32 h-32 rounded-full bg-gray-200 mr-4 overflow-hidden flex-shrink-0">
-                  <img 
+                  <Image 
                     src={agent.photo || '/images/agent-placeholder.jpg'} 
                     alt={agent.name}
                     className="w-full h-full object-cover"
@@ -308,7 +296,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   return { paths: [], fallback: 'blocking' };
 };
 
-export const getStaticProps: GetStaticProps = async ({ locale, params }) => {
+export const getStaticProps: GetStaticProps = async ({ locale, params: _params }) => {
   return {
     props: {
       ...(await serverSideTranslations(locale ?? 'en', ['common'])),

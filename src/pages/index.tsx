@@ -9,7 +9,6 @@ import ContactForm from '@/components/ui/ContactForm';
 import ScrollToTopButton from '@/components/ui/ScrollToTopButton';
 import { PropertyCardProps } from '@/components/property/PropertyCard';
 import { Testimonial } from '@/components/testimonial/TestimonialCarousel';
-import { useScrollPosition } from '@/utils/hooks';
 import { getAllProperties, getTestimonials } from '@/utils/dataService';
 import { useRouter } from 'next/router';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -22,7 +21,6 @@ const Home: NextPage = () => {
   const [activePropertyType, setActivePropertyType] = useState<ActivePropertyType>('buy');
   const [allProperties, setAllProperties] = useState<PropertyCardProps[]>([]);
   const [testimonials, setTestimonials] = useState<Testimonial[]>([]);
-  const { scrollToSection } = useScrollPosition();
 
   // Load static data on component mount
   useEffect(() => {

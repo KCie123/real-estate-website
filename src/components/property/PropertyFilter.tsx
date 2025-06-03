@@ -39,7 +39,7 @@ const PropertyFilter = ({ onFilterChange, propertyType }: PropertyFilterProps) =
     };
     
     onFilterChange(filters);
-  }, [searchQuery, priceMin, priceMax, bedrooms, bathrooms]);
+  }, [searchQuery, priceMin, priceMax, bedrooms, bathrooms, onFilterChange]);
   
 
   const resetFilters = () => {
