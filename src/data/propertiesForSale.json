@@ -1,0 +1,262 @@
+[
+  {
+    "id": "sale-1",
+    "title": "17081 Perry Street",
+    "address": "Los Angeles, CA 90001",
+    "price": 750000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "sqft": 2400,
+    "levels": 2,
+    "imageUrls": ["/images/property-1.jpg"],
+    "forSale": true,
+    "description": {
+      "en": "Beautiful family home in a quiet neighborhood with spacious rooms and a large backyard. Recently renovated kitchen with modern appliances and granite countertops. Close to schools, parks, and shopping centers.",
+      "es": "Hermosa casa familiar en un barrio tranquilo con amplias habitaciones y un gran patio trasero. Cocina recientemente renovada con electrodomésticos modernos y encimeras de granito. Cerca de escuelas, parques y centros comerciales.",
+      "uk": "Прекрасний сімейний будинок у тихому районі з просторими кімнатами та великим заднім двором. Нещодавно відремонтована кухня з сучасною технікою та гранітними стільницями. Близько до шкіл, парків та торгових центрів.",
+      "pl": "Piękny dom rodzinny w spokojnej okolicy z przestronnymi pokojami i dużym podwórkiem. Niedawno odnowiona kuchnia z nowoczesnymi urządzeniami i granitowymi blatami. Blisko szkół, parków i centrów handlowych."
+    },
+    "features": {
+      "en": [
+      "Hardwood floors",
+      "Central air conditioning",
+      "Attached garage",
+      "Fenced backyard",
+      "Modern kitchen"
+    ],
+      "es": [
+        "Pisos de madera",
+        "Aire acondicionado central",
+        "Garaje adjunto",
+        "Patio cercado",
+        "Cocina moderna"
+      ],
+      "uk": [
+        "Паркетна підлога",
+        "Центральне кондиціонування",
+        "Прибудований гараж",
+        "Огороджений задній двір",
+        "Сучасна кухня"
+      ],
+      "pl": [
+        "Drewniane podłogi",
+        "Centralna klimatyzacja",
+        "Garaż w bryle budynku",
+        "Ogrodzone podwórko",
+        "Nowoczesna kuchnia"
+      ]
+    },
+    "yearBuilt": 2005,
+    "parkingSpaces": 2,
+    "latitude": 34.0522,
+    "longitude": -118.2437
+  },
+  {
+    "id": "sale-2",
+    "title": "2510 Ocean Avenue",
+    "address": "San Francisco, CA 94127",
+    "price": 1250000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "sqft": 1800,
+    "levels": 1,
+    "imageUrls": ["/images/property-2.jpg"],
+    "forSale": true,
+    "description": {
+      "en": "Stunning contemporary home with panoramic ocean views. Open floor plan with high ceilings and large windows that fill the space with natural light. Gourmet kitchen with high-end appliances and a spacious island.",
+      "es": "Impresionante casa contemporánea con vistas panorámicas al océano. Plano de planta abierto con techos altos y grandes ventanales que llenan el espacio de luz natural. Cocina gourmet con electrodomésticos de alta gama y una isla espaciosa.",
+      "uk": "Приголомшливий сучасний будинок з панорамним видом на океан. Відкрите планування з високими стелями та великими вікнами, що наповнюють простір природним світлом. Кухня для гурманів з високоякісною технікою та просторим островом.",
+      "pl": "Oszałamiający współczesny dom z panoramicznym widokiem na ocean. Otwarty plan z wysokimi sufitami i dużymi oknami, które wypełniają przestrzeń naturalnym światłem. Kuchnia dla smakoszy z wysokiej klasy sprzętem i przestronną wyspą."
+    },
+    "features": {
+      "en": [
+      "Ocean views",
+      "Gourmet kitchen",
+      "Hardwood floors",
+      "Smart home system",
+      "Private patio"
+    ],
+      "es": [
+        "Vistas al mar",
+        "Cocina gourmet",
+        "Pisos de madera",
+        "Sistema de hogar inteligente",
+        "Patio privado"
+      ],
+      "uk": [
+        "Вид на океан",
+        "Кухня для гурманів",
+        "Паркетна підлога",
+        "Система розумного будинку",
+        "Приватне патіо"
+      ],
+      "pl": [
+        "Widok na ocean",
+        "Kuchnia dla smakoszy",
+        "Drewniane podłogi",
+        "System inteligentnego domu",
+        "Prywatne patio"
+      ]
+    },
+    "yearBuilt": 2015,
+    "parkingSpaces": 1,
+    "latitude": 37.7749,
+    "longitude": -122.4194
+  },
+  {
+    "id": "sale-3",
+    "title": "742 Evergreen Terrace",
+    "address": "Springfield, OR 97403",
+    "price": 450000,
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "sqft": 2200,
+    "levels": 2,
+    "imageUrls": ["/images/property-3.jpg"],
+    "forSale": true,
+    "description": {
+      "en": "Charming family home in a well-established neighborhood. Features a cozy living room with a fireplace, updated kitchen, and a spacious master suite. Large backyard with mature trees and a covered patio.",
+      "es": "Encantadora casa familiar en un vecindario bien establecido. Cuenta con una acogedora sala de estar con chimenea, cocina actualizada y una espaciosa suite principal. Gran patio trasero con árboles maduros y un patio cubierto.",
+      "uk": "Чарівний сімейний будинок у добре розвиненому районі. Має затишну вітальню з каміном, оновлену кухню та простору головну спальню. Великий задній двір зі зрілими деревами та критим патіо.",
+      "pl": "Uroczy dom rodzinny w dobrze znanej okolicy. Posiada przytulny salon z kominkiem, zaktualizowaną kuchnię i przestronną sypialnię główną. Duże podwórko z dojrzałymi drzewami i zadaszonym patio."
+    },
+    "features": {
+      "en": [
+      "Fireplace",
+      "Updated kitchen",
+      "Master suite",
+      "Covered patio",
+      "Large backyard"
+    ],
+      "es": [
+        "Chimenea",
+        "Cocina actualizada",
+        "Suite principal",
+        "Patio cubierto",
+        "Patio grande"
+      ],
+      "uk": [
+        "Камін",
+        "Оновлена кухня",
+        "Головна спальня",
+        "Крите патіо",
+        "Великий задній двір"
+      ],
+      "pl": [
+        "Kominek",
+        "Zaktualizowana kuchnia",
+        "Sypialnia główna",
+        "Zadaszone patio",
+        "Duże podwórko"
+      ]
+    },
+    "yearBuilt": 1989,
+    "parkingSpaces": 2,
+    "latitude": 44.0462,
+    "longitude": -123.0236
+  },
+  {
+    "id": "sale-4",
+    "title": "123 Luxury Lane",
+    "address": "Beverly Hills, CA 90210",
+    "price": 3750000,
+    "bedrooms": 5,
+    "bathrooms": 4.5,
+    "sqft": 4200,
+    "levels": 2,
+    "imageUrls": ["/images/property-7.jpg"],
+    "forSale": true,
+    "description": {
+      "en": "Luxurious estate in prestigious Beverly Hills. This magnificent property features a grand entrance, formal dining room, gourmet kitchen, and a home theater. The outdoor space includes a swimming pool, spa, and outdoor kitchen.",
+      "es": "Lujosa finca en el prestigioso Beverly Hills. Esta magnífica propiedad cuenta con una gran entrada, comedor formal, cocina gourmet y sala de cine en casa. El espacio exterior incluye piscina, spa y cocina al aire libre.",
+      "uk": "Розкішний маєток у престижному Беверлі-Хіллз. Ця чудова власність має парадний вхід, офіційну їдальню, кухню для гурманів та домашній кінотеатр. Зовнішній простір включає басейн, спа та кухню на відкритому повітрі.",
+      "pl": "Luksusowa posiadłość w prestiżowym Beverly Hills. Ta wspaniała nieruchomość posiada wielkie wejście, formalną jadalnię, kuchnię dla smakoszy i kino domowe. Przestrzeń na zewnątrz obejmuje basen, spa i kuchnię na świeżym powietrzu."
+    },
+    "features": {
+      "en": [
+      "Swimming pool",
+      "Home theater",
+      "Wine cellar",
+      "Smart home system",
+      "Outdoor kitchen"
+    ],
+      "es": [
+        "Piscina",
+        "Cine en casa",
+        "Bodega",
+        "Sistema de hogar inteligente",
+        "Cocina al aire libre"
+      ],
+      "uk": [
+        "Басейн",
+        "Домашній кінотеатр",
+        "Винний льох",
+        "Система розумного будинку",
+        "Кухня на відкритому повітрі"
+      ],
+      "pl": [
+        "Basen",
+        "Kino domowe",
+        "Piwniczka na wino",
+        "System inteligentnego domu",
+        "Kuchnia na świeżym powietrzu"
+      ]
+    },
+    "yearBuilt": 2010,
+    "parkingSpaces": 3,
+    "latitude": 34.0736,
+    "longitude": -118.4004
+  },
+  {
+    "id": "sale-5",
+    "title": "789 Mountain View",
+    "address": "Denver, CO 80202",
+    "price": 875000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "sqft": 2100,
+    "levels": 1,
+    "imageUrls": ["/images/property-8.jpg"],
+    "forSale": true,
+    "description": {
+      "en": "Modern mountain retreat with breathtaking views. Open concept living area with floor-to-ceiling windows, chef's kitchen, and a cozy fireplace. The property includes a large deck perfect for entertaining and enjoying the scenery.",
+      "es": "Moderno refugio de montaña con impresionantes vistas. Sala de estar de concepto abierto con ventanales de piso a techo, cocina de chef y una acogedora chimenea. La propiedad incluye una gran terraza perfecta para el entretenimiento y disfrutar del paisaje.",
+      "uk": "Сучасний гірський притулок із захоплюючими краєвидами. Вітальня відкритого планування з вікнами від підлоги до стелі, кухнею шеф-кухаря та затишним каміном. Власність включає велику терасу, ідеальну для розваг та насолоди пейзажем.",
+      "pl": "Nowoczesne górskie schronienie z zapierającymi dech w piersiach widokami. Otwarta przestrzeń dzienna z oknami od podłogi do sufitu, kuchnia szefa kuchni i przytulny kominek. Nieruchomość obejmuje duży taras idealny do rozrywki i podziwiania krajobrazu."
+    },
+    "features": {
+      "en": [
+      "Mountain views",
+      "Floor-to-ceiling windows",
+      "Chef's kitchen",
+      "Fireplace",
+      "Large deck"
+    ],
+      "es": [
+        "Vistas a la montaña",
+        "Ventanales de piso a techo",
+        "Cocina de chef",
+        "Chimenea",
+        "Terraza grande"
+      ],
+      "uk": [
+        "Гірські краєвиди",
+        "Вікна від підлоги до стелі",
+        "Кухня шеф-кухаря",
+        "Камін",
+        "Велика тераса"
+      ],
+      "pl": [
+        "Widoki na góry",
+        "Okna od podłogi do sufitu",
+        "Kuchnia szefa kuchni",
+        "Kominek",
+        "Duży taras"
+      ]
+    },
+    "yearBuilt": 2018,
+    "parkingSpaces": 2,
+    "latitude": 39.7392,
+    "longitude": -104.9903
+  }
+]

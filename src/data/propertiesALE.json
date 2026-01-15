@@ -1,0 +1,267 @@
+[
+  {
+    "id": "ale-1",
+    "title": "Downtown Temporary Suite",
+    "address": "123 Main Street, Seattle, WA 98101",
+    "price": 2800,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "sqft": 950,
+    "levels": 1,
+    "imageUrls": ["/images/property-1.jpg"],
+    "forSale": false,
+    "service": "ALE",
+    "description": {
+      "en": "Fully furnished temporary accommodation perfect for insurance claims. This downtown suite features modern amenities, high-speed internet, and all utilities included. Available for short-term stays while your home is being repaired.",
+      "es": "Alojamiento temporal totalmente amueblado, perfecto para reclamaciones de seguros. Esta suite del centro cuenta con comodidades modernas, internet de alta velocidad y todos los servicios incluidos. Disponible para estancias cortas mientras su hogar está siendo reparado.",
+      "uk": "Повністю мебльоване тимчасове житло, ідеальне для страхових випадків. Ця центральна квартира має сучасні зручності, високошвидкісний інтернет і всі комунальні послуги включені. Доступно для короткострокового перебування, поки ваш будинок ремонтується.",
+      "pl": "W pełni umeblowane zakwaterowanie tymczasowe, idealne do roszczeń ubezpieczeniowych. Ten apartament w centrum miasta oferuje nowoczesne udogodnienia, szybki internet i wszystkie media w cenie. Dostępny na krótkie pobyty podczas naprawy domu."
+    },
+    "features": {
+      "en": [
+        "Fully furnished",
+        "All utilities included",
+        "High-speed internet",
+        "Weekly cleaning service",
+        "24/7 maintenance support"
+      ],
+      "es": [
+        "Totalmente amueblado",
+        "Todos los servicios incluidos",
+        "Internet de alta velocidad",
+        "Servicio de limpieza semanal",
+        "Soporte de mantenimiento 24/7"
+      ],
+      "uk": [
+        "Повністю мебльовано",
+        "Усі комунальні послуги включені",
+        "Високошвидкісний інтернет",
+        "Щотижневе прибирання",
+        "Цілодобова технічна підтримка"
+      ],
+      "pl": [
+        "W pełni umeblowane",
+        "Wszystkie media w cenie",
+        "Szybki internet",
+        "Cotygodniowe sprzątanie",
+        "Całodobowe wsparcie techniczne"
+      ]
+    },
+    "availableFrom": "2023-10-01",
+    "petFriendly": true,
+    "latitude": 47.6062,
+    "longitude": -122.3321
+  },
+  {
+    "id": "ale-2",
+    "title": "Suburban Family Home",
+    "address": "456 Oak Avenue, Bellevue, WA 98004",
+    "price": 3500,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "sqft": 1800,
+    "levels": 2,
+    "imageUrls": ["/images/property-2.jpg"],
+    "forSale": false,
+    "service": "ALE",
+    "description": {
+      "en": "Spacious temporary family home in a quiet suburban neighborhood. Perfect for families displaced due to home repairs or renovations. Includes a fenced backyard, garage parking, and is close to schools and shopping centers.",
+      "es": "Espaciosa casa familiar temporal en un tranquilo barrio residencial. Perfecta para familias desplazadas debido a reparaciones o renovaciones del hogar. Incluye un patio trasero cercado, estacionamiento en garaje y está cerca de escuelas y centros comerciales.",
+      "uk": "Просторий тимчасовий сімейний будинок у тихому приміському районі. Ідеально підходить для сімей, переміщених через ремонт будинку. Включає огороджений задній двір, гаражне паркування та знаходиться поблизу шкіл і торгових центрів.",
+      "pl": "Przestronny tymczasowy dom rodzinny w spokojnej podmiejskiej okolicy. Idealny dla rodzin przesiedlonych z powodu remontów domu. Obejmuje ogrodzony podwórko, miejsce parkingowe w garażu i znajduje się w pobliżu szkół i centrów handlowych."
+    },
+    "features": {
+      "en": [
+        "Fully furnished",
+        "Fenced backyard",
+        "Garage parking",
+        "Washer and dryer",
+        "Close to schools"
+      ],
+      "es": [
+        "Totalmente amueblado",
+        "Patio trasero cercado",
+        "Estacionamiento en garaje",
+        "Lavadora y secadora",
+        "Cerca de escuelas"
+      ],
+      "uk": [
+        "Повністю мебльовано",
+        "Огороджений задній двір",
+        "Гаражне паркування",
+        "Пральна та сушильна машини",
+        "Поблизу шкіл"
+      ],
+      "pl": [
+        "W pełni umeblowany",
+        "Ogrodzony podwórko",
+        "Miejsce parkingowe w garażu",
+        "Pralka i suszarka",
+        "Blisko szkół"
+      ]
+    },
+    "availableFrom": "2023-09-15",
+    "petFriendly": true,
+    "latitude": 47.6101,
+    "longitude": -122.2015
+  },
+  {
+    "id": "ale-3",
+    "title": "Lakeside Condo",
+    "address": "789 Waterfront Drive, Kirkland, WA 98033",
+    "price": 3200,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "levels": 1,
+    "imageUrls": ["/images/property-3.jpg"],
+    "forSale": false,
+    "service": "ALE",
+    "description": {
+      "en": "Elegant lakeside condo available for temporary accommodation. This unit features stunning water views, a modern kitchen, and access to community amenities including a gym and pool. Ideal for insurance claims requiring temporary housing.",
+      "es": "Elegante condominio junto al lago disponible para alojamiento temporal. Esta unidad cuenta con impresionantes vistas al agua, una cocina moderna y acceso a servicios comunitarios que incluyen gimnasio y piscina. Ideal para reclamaciones de seguros que requieren vivienda temporal.",
+      "uk": "Елегантна квартира біля озера доступна для тимчасового проживання. Цей об'єкт має чудовий вид на воду, сучасну кухню та доступ до громадських зручностей, включаючи тренажерний зал і басейн. Ідеально підходить для страхових випадків, що потребують тимчасового житла.",
+      "pl": "Eleganckie mieszkanie nad jeziorem dostępne na zakwaterowanie tymczasowe. Ten apartament oferuje wspaniałe widoki на wodę, nowoczesną kuchnię i dostęp do udogodnień społeczności, w tym siłowni i basenu. Idealne dla roszczeń ubezpieczeniowych wymagających tymczasowego zakwaterowania."
+    },
+    "features": {
+      "en": [
+        "Water views",
+        "Community gym and pool",
+        "Secure building access",
+        "Balcony",
+        "Underground parking"
+      ],
+      "es": [
+        "Vistas al agua",
+        "Gimnasio y piscina comunitarios",
+        "Acceso seguro al edificio",
+        "Balcón",
+        "Estacionamiento subterráneo"
+      ],
+      "uk": [
+        "Вид на воду",
+        "Громадський тренажерний зал і басейн",
+        "Безпечний доступ до будівлі",
+        "Балкон",
+        "Підземне паркування"
+      ],
+      "pl": [
+        "Widoki na wodę",
+        "Siłownia i basen społecznościowy",
+        "Bezpieczny dostęp do budynku",
+        "Balkon",
+        "Parking podziemny"
+      ]
+    },
+    "availableFrom": "2023-10-15",
+    "petFriendly": false,
+    "latitude": 47.6769,
+    "longitude": -122.2060
+  },
+  {
+    "id": "ale-4",
+    "title": "Urban Loft Apartment",
+    "address": "321 Pioneer Square, Seattle, WA 98104",
+    "price": 2500,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "sqft": 850,
+    "levels": 1,
+    "imageUrls": ["/images/property-4.jpg"],
+    "forSale": false,
+    "service": "ALE",
+    "description": {
+      "en": "Stylish urban loft in the heart of Seattle's historic district. This temporary accommodation features exposed brick walls, high ceilings, and modern furnishings. Perfect for individuals or couples needing short-term housing during home repairs.",
+      "es": "Elegante loft urbano en el corazón del distrito histórico de Seattle. Este alojamiento temporal cuenta con paredes de ladrillo visto, techos altos y mobiliario moderno. Perfecto para personas o parejas que necesitan vivienda a corto plazo durante reparaciones del hogar.",
+      "uk": "Стильний міський лофт у серці історичного району Сіетла. Це тимчасове житло має відкриті цегляні стіни, високі стелі та сучасні меблі. Ідеально підходить для окремих осіб або пар, які потребують короткострокового житла під час ремонту будинку.",
+      "pl": "Stylowy miejski loft w sercu historycznej dzielnicy Seattle. To tymczasowe zakwaterowanie posiada odsłonięte ceglane ściany, wysokie sufity i nowoczesne meble. Idealne dla osób indywidualnych lub par potrzebujących krótkoterminowego zakwaterowania podczas napraw domu."
+    },
+    "features": {
+      "en": [
+        "Exposed brick walls",
+        "High ceilings",
+        "Modern furnishings",
+        "In-unit laundry",
+        "Walkable neighborhood"
+      ],
+      "es": [
+        "Paredes de ladrillo visto",
+        "Techos altos",
+        "Mobiliario moderno",
+        "Lavandería en la unidad",
+        "Barrio transitable"
+      ],
+      "uk": [
+        "Відкриті цегляні стіни",
+        "Високі стелі",
+        "Сучасні меблі",
+        "Пральня в квартирі",
+        "Зручний для пішої ходьби район"
+      ],
+      "pl": [
+        "Odsłonięte ceglane ściany",
+        "Wysokie sufity",
+        "Nowoczesne meble",
+        "Pralnia w lokalu",
+        "Okolica przyjazna dla pieszych"
+      ]
+    },
+    "availableFrom": "2023-09-01",
+    "petFriendly": true,
+    "latitude": 47.6016,
+    "longitude": -122.3325
+  },
+  {
+    "id": "ale-5",
+    "title": "Eastside Executive Home",
+    "address": "555 Highland Drive, Redmond, WA 98052",
+    "price": 4500,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "sqft": 2600,
+    "levels": 2,
+    "imageUrls": ["/images/property-5.jpg"],
+    "forSale": false,
+    "service": "ALE",
+    "description": {
+      "en": "Luxurious executive home available for temporary accommodation. This spacious property features a gourmet kitchen, home office, and large backyard. Ideal for families needing extended temporary housing during major home renovations or insurance claims.",
+      "es": "Lujosa casa ejecutiva disponible para alojamiento temporal. Esta espaciosa propiedad cuenta con una cocina gourmet, oficina en casa y un gran patio trasero. Ideal para familias que necesitan vivienda temporal extendida durante renovaciones importantes del hogar o reclamaciones de seguros.",
+      "uk": "Розкішний представницький будинок доступний для тимчасового проживання. Цей просторий об'єкт має кухню для гурманів, домашній офіс і великий задній двір. Ідеально підходить для сімей, які потребують тривалого тимчасового житла під час капітального ремонту будинку або страхових випадків.",
+      "pl": "Luksusowy dom dla kadry kierowniczej dostępny na zakwaterowanie tymczasowe. Ta przestronna posiadłość posiada kuchnię dla smakoszy, biuro domowe i duże podwórko. Idealny dla rodzin potrzebujących przedłużonego tymczasowego zakwaterowania podczas większych remontów domu lub roszczeń ubezpieczeniowych."
+    },
+    "features": {
+      "en": [
+        "Gourmet kitchen",
+        "Home office",
+        "Large backyard",
+        "Smart home features",
+        "Near tech corridor"
+      ],
+      "es": [
+        "Cocina gourmet",
+        "Oficina en casa",
+        "Gran patio trasero",
+        "Características de casa inteligente",
+        "Cerca del corredor tecnológico"
+      ],
+      "uk": [
+        "Кухня для гурманів",
+        "Домашній офіс",
+        "Великий задній двір",
+        "Функції розумного будинку",
+        "Поблизу технологічного коридору"
+      ],
+      "pl": [
+        "Kuchnia dla smakoszy",
+        "Biuro domowe",
+        "Duże podwórko",
+        "Funkcje inteligentnego domu",
+        "Blisko korytarza technologicznego"
+      ]
+    },
+    "availableFrom": "2023-11-01",
+    "petFriendly": true,
+    "latitude": 47.6740,
+    "longitude": -122.1215
+  }
+] 

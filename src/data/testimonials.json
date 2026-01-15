@@ -1,0 +1,47 @@
+[
+  {
+    "id": "testimonial-1",
+    "name": "Sarah Johnson",
+    "role": "Homeowner",
+    "quote": "DWELL helped me find my dream home in just two weeks! Their team was professional, knowledgeable, and made the entire process stress-free.",
+    "location": "Los Angeles, CA",
+    "imageUrl": "/images/testimonial-1.jpg",
+    "rating": 5
+  },
+  {
+    "id": "testimonial-2",
+    "name": "Michael Chen",
+    "role": "First-time Buyer",
+    "quote": "As a first-time homebuyer, I was nervous about the process. The agents at DWELL guided me every step of the way and found me a perfect starter home within my budget.",
+    "location": "San Francisco, CA",
+    "imageUrl": "/images/testimonial-2.jpg",
+    "rating": 5
+  },
+  {
+    "id": "testimonial-3",
+    "name": "Emily Rodriguez",
+    "role": "Property Investor",
+    "quote": "I've worked with many real estate agencies, but DWELL stands out for their market expertise and personalized service. They've helped me build a successful investment portfolio.",
+    "location": "Miami, FL",
+    "imageUrl": "/images/testimonial-3.jpg",
+    "rating": 5
+  },
+  {
+    "id": "testimonial-4",
+    "name": "David Wilson",
+    "role": "Relocating Family",
+    "quote": "When we needed to relocate for work, DWELL made the transition seamless. They understood our family's needs and found us the perfect neighborhood with great schools.",
+    "location": "Denver, CO",
+    "imageUrl": "/images/testimonial-4.jpg",
+    "rating": 4
+  },
+  {
+    "id": "testimonial-5",
+    "name": "Jennifer Taylor",
+    "role": "Luxury Home Buyer",
+    "quote": "The attention to detail and personalized service from DWELL was exceptional. They found us a stunning property that exceeded all our expectations.",
+    "location": "Beverly Hills, CA",
+    "imageUrl": "/images/testimonial-5.jpg",
+    "rating": 5
+  }
+]
