@@ -1,0 +1,9 @@
+{
+  "name": "clean-real-estate",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Using pre-built files' && exit 0"
+  }
+}
+
